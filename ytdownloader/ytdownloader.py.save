@@ -1,0 +1,17 @@
+from pytube import YouTube
+
+link = input("Enter link")# try:
+#     yt = YouTube(link)
+#     print("Title:",yt.title)
+#     ys = yt.streams.get_highest_resolution()
+#     ys = yt.streams.get_by_itag('22')
+#     ys.download()
+#     print('Task Completed!') 
+# except:
+#     print("Connection error")
+yt = YouTube(link)
+print("Title:",yt.title)
+ys = yt.streams.get_highest_resolution()
+# ys = yt.streams.get_by_itag('22')
+ys.download()
+print('Task Completed!') 
