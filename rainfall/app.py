@@ -59,20 +59,10 @@ def monthly_rain(yr):
 
 yr = input("Enter year for total rainfall")
 total_rainfall(yr)
-
-# yr = input("Enter year for wind rainfall")
 winter_rain(yr)
-
-# yr = input("Enter year for pre-mansoon rainfall")
 pre_mansoon_rain(yr)
-
-# yr = input("Enter year for south-west rainfall")
 south_west_monsoon(yr)
-
-# yr = input("Enter year for north-east rainfall")
 north_east_monsoon(yr)
-
-# yr = input("Enter year for monthly rainfall")
 monthly_rain(yr)
 
 
